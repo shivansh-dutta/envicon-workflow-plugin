@@ -7,7 +7,7 @@ Share this with anyone who needs Claude Code workflow skills.
 In Claude Code:
 
 ```text
-/plugin marketplace add <org>/envicon-workflow-plugin
+/plugin marketplace add shivansh-dutta/envicon-workflow-plugin
 /plugin install envicon-workflow@envicon-workflow
 /plugin install claude-mem@envicon-workflow
 ```
@@ -53,7 +53,7 @@ To auto-enable for everyone, add to managed settings:
 {
   "extraKnownMarketplaces": {
     "envicon-workflow": {
-      "source": { "source": "github", "repo": "<org>/envicon-workflow-plugin" }
+      "source": { "source": "github", "repo": "shivansh-dutta/envicon-workflow-plugin" }
     }
   },
   "enabledPlugins": {
@@ -63,7 +63,7 @@ To auto-enable for everyone, add to managed settings:
 }
 ```
 
-If marketplace allowlisting is enforced, add `<org>/envicon-workflow-plugin` to `strictKnownMarketplaces`.
+If marketplace allowlisting is enforced, add `shivansh-dutta/envicon-workflow-plugin` to `strictKnownMarketplaces`.
 
 ## Support
 

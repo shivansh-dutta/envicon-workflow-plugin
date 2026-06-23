@@ -8,12 +8,10 @@ Org-shareable Claude Code marketplace bundling:
 ## Quick install
 
 ```text
-/plugin marketplace add <org>/envicon-workflow-plugin
+/plugin marketplace add shivansh-dutta/envicon-workflow-plugin
 /plugin install envicon-workflow@envicon-workflow
 /plugin install claude-mem@envicon-workflow
 ```
-
-Replace `<org>` with your GitHub organization or username.
 
 ## Prerequisites (each developer, once)
 
@@ -80,7 +78,7 @@ Add to managed settings so the marketplace auto-registers:
 {
   "extraKnownMarketplaces": {
     "envicon-workflow": {
-      "source": { "source": "github", "repo": "<org>/envicon-workflow-plugin" }
+      "source": { "source": "github", "repo": "shivansh-dutta/envicon-workflow-plugin" }
     }
   },
   "enabledPlugins": {
@@ -90,7 +88,7 @@ Add to managed settings so the marketplace auto-registers:
 }
 ```
 
-If `strictKnownMarketplaces` is enabled, add `<org>/envicon-workflow-plugin` to the allowlist.
+If `strictKnownMarketplaces` is enabled, add `shivansh-dutta/envicon-workflow-plugin` to the allowlist.
 
 ### Project-level nudge
 
@@ -100,7 +98,7 @@ Add to shared repos' `.claude/settings.json`:
 {
   "extraKnownMarketplaces": {
     "envicon-workflow": {
-      "source": { "source": "github", "repo": "<org>/envicon-workflow-plugin" }
+      "source": { "source": "github", "repo": "shivansh-dutta/envicon-workflow-plugin" }
     }
   },
   "enabledPlugins": {
