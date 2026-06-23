@@ -1,0 +1,28 @@
+{
+  "name": "envicon-workflow",
+  "owner": {
+    "name": "Envicon"
+  },
+  "metadata": {
+    "description": "Envicon workflow plugins: OpenSpec, Obsidian vaults, LightRAG, and claude-mem"
+  },
+  "plugins": [
+    {
+      "name": "envicon-workflow",
+      "version": "1.0.0",
+      "source": "./plugins/envicon-workflow",
+      "description": "OpenSpec, Obsidian, and LightRAG workflow skills for Phase 1 EDR work"
+    },
+    {
+      "name": "claude-mem",
+      "version": "13.6.1",
+      "description": "Persistent memory and context compression (required companion)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thedotmack/claude-mem.git",
+        "path": "plugin",
+        "ref": "v13.6.1"
+      }
+    }
+  ]
+}

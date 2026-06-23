@@ -1,0 +1,17 @@
+{
+  "name": "envicon-workflow",
+  "version": "1.0.0",
+  "description": "Envicon workflow skills: OpenSpec, Obsidian vaults, and LightRAG for Phase 1 EDR work",
+  "author": {
+    "name": "Envicon"
+  },
+  "repository": "https://github.com/envicon/envicon-workflow-plugin",
+  "keywords": [
+    "envicon",
+    "openspec",
+    "obsidian",
+    "lightrag",
+    "phase-1",
+    "edr"
+  ]
+}
